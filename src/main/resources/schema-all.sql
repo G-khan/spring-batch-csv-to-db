@@ -1,0 +1,7 @@
+DROP TABLE users IF EXISTS;
+
+CREATE TABLE users(
+    id BIGINT IDENTITY NOT NULL PRIMARY KEY,
+    name VARCHAR(40),
+    surname VARCHAR(40)
+);
